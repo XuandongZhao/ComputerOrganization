@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ISE/OExp05-DataPath/Data_path_Data_path_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Data_path_Data_path_sch_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="label">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/MemtoReg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/Branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/ALUSrc_B" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrc_B</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/RegDst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/Jump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Jump</obj_property>
+      <obj_property name="ObjectShortName">Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/ALU_Control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_Control[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Control[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/inst_field" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_field[25:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_field[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/Data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/PC_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/ALU_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Data_path_Data_path_sch_tb/Data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

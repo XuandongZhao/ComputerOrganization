@@ -1,0 +1,4 @@
+sch2hdl,-sympath,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Code,-sympath,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Display.vf,-w,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Code/Display.sch
+sch2hdl,-sympath,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Code,-sympath,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/MC14495_ZJU.vf,-w,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Code/MC14495_ZJU.sch
+sch2hdl,-sympath,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Code,-sympath,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Top.vf,-w,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Code/Top.sch
+sch2hdl,-sympath,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Code,-sympath,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Top.vf,-w,D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Code/Top.sch

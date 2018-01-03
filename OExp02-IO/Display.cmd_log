@@ -1,0 +1,4 @@
+sch2hdl -sympath D:/zxd_CS/CC/OExp02-IO/Code -sympath D:/zxd_CS/CC/OExp02-IO/ipcore_dir -intstyle ise -family kintex7 -verilog Display_drc.vf -w D:/zxd_CS/CC/OExp02-IO/Code/Display.sch 
+sch2hdl -sympath D:/zxd_CS/CC/OExp02-IO/Code -sympath D:/zxd_CS/CC/OExp02-IO/ipcore_dir -intstyle ise -family kintex7 -verilog Display_drc.vf -w D:/zxd_CS/CC/OExp02-IO/Code/Display.sch 
+sch2hdl -sympath D:/zxd_CS/CC/OExp02-IO/Code -sympath D:/zxd_CS/CC/OExp02-IO/ipcore_dir -intstyle ise -family kintex7 -verilog Display_drc.vf -w D:/zxd_CS/CC/OExp02-IO/Code/Display.sch 
+sch2hdl -sympath D:/zxd_CS/CC/OExp02-IO/Code -sympath D:/zxd_CS/CC/OExp02-IO/ipcore_dir -intstyle ise -family kintex7 -verilog Display_drc.vf -w D:/zxd_CS/CC/OExp02-IO/Code/Display.sch 

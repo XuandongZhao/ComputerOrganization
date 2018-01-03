@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj OExp01-Top -o D:/zxd_CS/CC/OExp02-IO/HexTo8SEG.tfi -lib work D:/zxd_CS/CC/OExp02-IO/Code//HexTo8SEG.v -module HexTo8SEG -template D:/Software/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

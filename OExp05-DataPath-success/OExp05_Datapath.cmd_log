@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/ISE/OExp05-DataPath/OExp05_Datapath.xst" -ofn "D:/ISE/OExp05-DataPath/OExp05_Datapath.syr" 
+xst -intstyle ise -ifn "D:/ISE/OExp05-DataPath/OExp05_Datapath.xst" -ofn "D:/ISE/OExp05-DataPath/OExp05_Datapath.syr" 
+xst -intstyle ise -ifn "D:/ISE/OExp05-DataPath/OExp05_Datapath.xst" -ofn "D:/ISE/OExp05-DataPath/OExp05_Datapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7k160t-ffg676-2L OExp05_Datapath.ngc OExp05_Datapath.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o OExp05_Datapath_map.ncd OExp05_Datapath.ngd OExp05_Datapath.pcf 
+par -w -intstyle ise -ol high -mt off OExp05_Datapath_map.ncd OExp05_Datapath.ncd OExp05_Datapath.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml OExp05_Datapath.twx OExp05_Datapath.ncd -o OExp05_Datapath.twr OExp05_Datapath.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim OExp05_Datapath.ngd OExp05_Datapath_translate.v 
+xst -intstyle ise -ifn "D:/ISE/OExp05-DataPath/OExp05_Datapath.xst" -ofn "D:/ISE/OExp05-DataPath/OExp05_Datapath.syr" 
+xst -intstyle ise -ifn "Z:/Downloads/OExp05-DataPath-success/OExp05_Datapath.xst" -ofn "Z:/Downloads/OExp05-DataPath-success/OExp05_Datapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7k160t-ffg676-2L OExp05_Datapath.ngc OExp05_Datapath.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o OExp05_Datapath_map.ncd OExp05_Datapath.ngd OExp05_Datapath.pcf 
+par -w -intstyle ise -ol high -mt off OExp05_Datapath_map.ncd OExp05_Datapath.ncd OExp05_Datapath.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml OExp05_Datapath.twx OExp05_Datapath.ncd -o OExp05_Datapath.twr OExp05_Datapath.pcf 
+bitgen -intstyle ise -f OExp05_Datapath.ut OExp05_Datapath.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc SOC-Sword.ucf -p xc7k160t-ffg676-2L OExp05_Datapath.ngc OExp05_Datapath.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o OExp05_Datapath_map.ncd OExp05_Datapath.ngd OExp05_Datapath.pcf 
+par -w -intstyle ise -ol high -mt off OExp05_Datapath_map.ncd OExp05_Datapath.ncd OExp05_Datapath.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml OExp05_Datapath.twx OExp05_Datapath.ncd -o OExp05_Datapath.twr OExp05_Datapath.pcf -ucf SOC-Sword.ucf 
+bitgen -intstyle ise -f OExp05_Datapath.ut OExp05_Datapath.ncd 

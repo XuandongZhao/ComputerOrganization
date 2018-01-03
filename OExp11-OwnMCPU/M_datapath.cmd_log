@@ -1,0 +1,2 @@
+sch2hdl -sympath C:/zxd_CS/CC/OExp10-MDP/Code -sympath C:/zxd_CS/CC/OExp10-MDP/ipcore_dir -intstyle ise -family kintex7 -verilog M_datapath_drc.vf -w C:/zxd_CS/CC/OExp10-MDP/Code/M_datapath.sch 
+sch2hdl -sympath C:/zxd_CS/CC/OExp10-MDP/Code -sympath C:/zxd_CS/CC/OExp10-MDP/ipcore_dir -intstyle ise -family kintex7 -verilog M_datapath_drc.vf -w C:/zxd_CS/CC/OExp10-MDP/Code/M_datapath.sch 

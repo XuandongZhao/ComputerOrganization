@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w D:/ISE/OExp05-DataPath/Data_path.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w D:/ISE/OExp05-DataPath/Data_path.sch 
+xst -intstyle ise -ifn "D:/ISE/OExp05-DataPath/Data_path.xst" -ofn "D:/ISE/OExp05-DataPath/Data_path.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-2L Data_path.ngc Data_path.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Data_path_map.ncd Data_path.ngd Data_path.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Data_path_preroute.twx Data_path_map.ncd -o Data_path_preroute.twr Data_path.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim Data_path.ngd Data_path_translate.v 

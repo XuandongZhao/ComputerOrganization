@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Top.xst" -ofn "D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/ok.ucf -p xc7k160t-fbg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+xst -intstyle ise -ifn "D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Top.xst" -ofn "D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/ok.ucf -p xc7k160t-fbg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+xst -intstyle ise -ifn "D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Top.xst" -ofn "D:/zxd_CS/CC/OExp03-IP2SOC_DIY/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/ok.ucf -p xc7k160t-fbg676-2L Top.ngc Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 

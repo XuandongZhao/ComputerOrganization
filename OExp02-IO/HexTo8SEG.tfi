@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+HexTo8SEG instance_name (
+    .Hexs(Hexs), 
+    .points(points), 
+    .LES(LES), 
+    .flash(flash), 
+    .SEG_TXT(SEG_TXT)
+    );
+
+

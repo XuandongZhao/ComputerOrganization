@@ -1,0 +1,622 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Top_OExp03_IP2SOC.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top_OExp03_IP2SOC.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top_OExp03_IP2SOC"
+Output Format                      : NGC
+Target Device                      : xc7k160t-2L-ffg676
+
+---- Source Options
+Top Module Name                    : Top_OExp03_IP2SOC
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"Code/IO" "Code" "ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\xor32.v" into library work
+Parsing module <xor32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\srl32.v" into library work
+Parsing module <srl32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\SignalExt_32.v" into library work
+Parsing module <SignalExt_32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\or_bit_32 .v" into library work
+Parsing module <or_bit_32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\or32.v" into library work
+Parsing module <or32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\nor32.v" into library work
+Parsing module <nor32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\MUX8T1_32.v" into library work
+Parsing module <MUX8T1_32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\and32.v" into library work
+Parsing module <and32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\addc_32.v" into library work
+Parsing module <ADC32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\regs.v" into library work
+Parsing module <Regs>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\REG32.v" into library work
+Parsing module <REG32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\MUX2T1_5.v" into library work
+Parsing module <MUX2T1_5>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\MUX2T1_32.v" into library work
+Parsing module <MUX2T1_32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\Ext_imm16.v" into library work
+Parsing module <Ext_32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\add_32.v" into library work
+Parsing module <add_32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\alu.vf" into library work
+Parsing module <alu>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\SCPU_ctrl.v" into library work
+Parsing module <SCPU_ctrl>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Data_path.vf" into library work
+Parsing module <alu_MUSER_Data_path>.
+Parsing module <Data_path>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\ipcore_dir\ROM_D.v" into library work
+Parsing module <ROM_D>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\ipcore_dir\RAM_B.v" into library work
+Parsing module <RAM_B>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\SCPU.vf" into library work
+Parsing module <alu_MUSER_SCPU>.
+Parsing module <Data_path_MUSER_SCPU>.
+Parsing module <SCPU>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\SSeg7_Dev_IO.v" into library work
+Parsing module <SSeg7_Dev>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\SPIO_IO.v" into library work
+Parsing module <SPIO>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\SEnter_2_32_IO.v" into library work
+Parsing module <SEnter_2_32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\Seg7_Dev_IO.v" into library work
+Parsing module <Seg7_Dev>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\SAnti_jitter_IO.v" into library work
+Parsing module <SAnti_jitter>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\PIO_IO.v" into library work
+Parsing module <PIO>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\Multi_8CH32_IO.v" into library work
+Parsing module <Multi_8CH32>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\MIO_BUS_IO.v" into library work
+Parsing module <MIO_BUS>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\Counter_3_IO.v" into library work
+Parsing module <Counter_x>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\clk_div.v" into library work
+Parsing module <clk_div>.
+Analyzing Verilog file "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" into library work
+Parsing module <alu_MUSER_Top_OExp03_IP2SOC>.
+Parsing module <Data_path_MUSER_Top_OExp03_IP2SOC>.
+Parsing module <SCPU_MUSER_Top_OExp03_IP2SOC>.
+Parsing module <Top_OExp03_IP2SOC>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Top_OExp03_IP2SOC>.
+
+Elaborating module <SEnter_2_32>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" Line 354: Assignment to Ai ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" Line 355: Assignment to Bi ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" Line 356: Assignment to blink ignored, since the identifier is never used
+
+Elaborating module <SCPU_MUSER_Top_OExp03_IP2SOC>.
+
+Elaborating module <SCPU_ctrl>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\SCPU_ctrl.v" Line 21: Empty module <SCPU_ctrl> remains a black box.
+
+Elaborating module <Data_path_MUSER_Top_OExp03_IP2SOC>.
+
+Elaborating module <MUX2T1_5>.
+
+Elaborating module <MUX2T1_32>.
+
+Elaborating module <REG32>.
+
+Elaborating module <alu_MUSER_Top_OExp03_IP2SOC>.
+
+Elaborating module <and32>.
+
+Elaborating module <ADC32>.
+
+Elaborating module <xor32>.
+
+Elaborating module <nor32>.
+
+Elaborating module <MUX8T1_32>.
+
+Elaborating module <or_bit_32>.
+WARNING:HDLCompiler:413 - "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\or_bit_32 .v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <srl32>.
+
+Elaborating module <SignalExt_32>.
+
+Elaborating module <or32>.
+
+Elaborating module <GND>.
+WARNING:HDLCompiler:634 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" Line 37: Net <N0> does not have a driver.
+
+Elaborating module <Ext_32>.
+
+Elaborating module <Regs>.
+
+Elaborating module <add_32>.
+
+Elaborating module <AND2>.
+
+Elaborating module <VCC>.
+WARNING:HDLCompiler:634 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" Line 123: Net <pc_4[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" Line 124: Net <V5> does not have a driver.
+
+Elaborating module <ROM_D>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\ipcore_dir\ROM_D.v" Line 39: Empty module <ROM_D> remains a black box.
+
+Elaborating module <RAM_B>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
+
+Elaborating module <MIO_BUS>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\MIO_BUS_IO.v" Line 21: Empty module <MIO_BUS> remains a black box.
+
+Elaborating module <Multi_8CH32>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\Multi_8CH32_IO.v" Line 21: Empty module <Multi_8CH32> remains a black box.
+
+Elaborating module <SSeg7_Dev>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\SSeg7_Dev_IO.v" Line 21: Empty module <SSeg7_Dev> remains a black box.
+
+Elaborating module <SPIO>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\SPIO_IO.v" Line 21: Empty module <SPIO> remains a black box.
+
+Elaborating module <clk_div>.
+
+Elaborating module <SAnti_jitter>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" Line 456: Assignment to Pulse ignored, since the identifier is never used
+
+Elaborating module <Counter_x>.
+WARNING:HDLCompiler:1127 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\Counter_3_IO.v" Line 43: Assignment to M2 ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\Counter_3_IO.v" Line 36: Net <counter1[32]> does not have a driver.
+
+Elaborating module <Seg7_Dev>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\Seg7_Dev_IO.v" Line 21: Empty module <Seg7_Dev> remains a black box.
+
+Elaborating module <PIO>.
+WARNING:HDLCompiler:1499 - "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\PIO_IO.v" Line 21: Empty module <PIO> remains a black box.
+
+Elaborating module <BUF>.
+
+Elaborating module <INV>.
+WARNING:HDLCompiler:552 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" Line 358: Input port MIO_ready is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Top_OExp03_IP2SOC>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf".
+    Set property "LOC = E13,F14,G14,D14" for signal <BTN_y>.
+    Set property "LOC = K13,K14,J13,J14,H13,H14,G12,F12" for signal <SW>.
+    Set property "LOC = T9" for signal <clk_100mhz>.
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 349: Output port <Ai> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 349: Output port <Bi> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 349: Output port <blink> of the instance <M4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 358: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 429: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 446: Output port <pulse_out> of the instance <U9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 479: Output port <counter_set> of the instance <U71> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 479: Output port <GPIOf0> of the instance <U71> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Top_OExp03_IP2SOC> synthesized.
+
+Synthesizing Unit <SCPU_MUSER_Top_OExp03_IP2SOC>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf".
+WARNING:Xst:647 - Input <INT> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <SCPU_MUSER_Top_OExp03_IP2SOC> synthesized.
+
+Synthesizing Unit <Data_path_MUSER_Top_OExp03_IP2SOC>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf".
+INFO:Xst:3210 - "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf" line 156: Output port <overflow> of the instance <U1_1> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <pc_4> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <V5> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Data_path_MUSER_Top_OExp03_IP2SOC> synthesized.
+
+Synthesizing Unit <MUX2T1_5>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\MUX2T1_5.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2T1_5> synthesized.
+
+Synthesizing Unit <MUX2T1_32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\MUX2T1_32.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2T1_32> synthesized.
+
+Synthesizing Unit <REG32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\REG32.v".
+    Found 32-bit register for signal <Q>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <REG32> synthesized.
+
+Synthesizing Unit <alu_MUSER_Top_OExp03_IP2SOC>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Top_OExp03_IP2SOC.vf".
+WARNING:Xst:653 - Signal <overflow> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <N0> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <alu_MUSER_Top_OExp03_IP2SOC> synthesized.
+
+Synthesizing Unit <and32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\and32.v".
+    Summary:
+	no macro.
+Unit <and32> synthesized.
+
+Synthesizing Unit <ADC32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\addc_32.v".
+    Found 33-bit adder for signal <n0013> created at line 30.
+    Found 33-bit adder for signal <S> created at line 30.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <ADC32> synthesized.
+
+Synthesizing Unit <xor32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\xor32.v".
+    Summary:
+Unit <xor32> synthesized.
+
+Synthesizing Unit <nor32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\nor32.v".
+    Summary:
+	no macro.
+Unit <nor32> synthesized.
+
+Synthesizing Unit <MUX8T1_32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\MUX8T1_32.v".
+    Found 32-bit 8-to-1 multiplexer for signal <o> created at line 35.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX8T1_32> synthesized.
+
+Synthesizing Unit <or_bit_32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\or_bit_32 .v".
+    Summary:
+	no macro.
+Unit <or_bit_32> synthesized.
+
+Synthesizing Unit <srl32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\srl32.v".
+WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <B<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <srl32> synthesized.
+
+Synthesizing Unit <SignalExt_32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\SignalExt_32.v".
+    Summary:
+	no macro.
+Unit <SignalExt_32> synthesized.
+
+Synthesizing Unit <or32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\or32.v".
+    Summary:
+	no macro.
+Unit <or32> synthesized.
+
+Synthesizing Unit <Ext_32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\Ext_imm16.v".
+    Summary:
+	no macro.
+Unit <Ext_32> synthesized.
+
+Synthesizing Unit <Regs>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\regs.v".
+    Found 992-bit register for signal <n0051[991:0]>.
+    Found 32-bit 31-to-1 multiplexer for signal <R_addr_A[4]_register[31][31]_wide_mux_1_OUT> created at line 28.
+    Found 32-bit 31-to-1 multiplexer for signal <R_addr_B[4]_register[31][31]_wide_mux_4_OUT> created at line 29.
+    Summary:
+	inferred 992 D-type flip-flop(s).
+	inferred  35 Multiplexer(s).
+Unit <Regs> synthesized.
+
+Synthesizing Unit <add_32>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\ALU\add_32.v".
+    Found 32-bit adder for signal <c> created at line 26.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <add_32> synthesized.
+
+Synthesizing Unit <clk_div>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\clk_div.v".
+    Found 32-bit register for signal <clkdiv>.
+    Found 32-bit adder for signal <clkdiv[31]_GND_31_o_add_0_OUT> created at line 32.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <clk_div> synthesized.
+
+Synthesizing Unit <Counter_x>.
+    Related source file is "C:\zxd_CS\CC\OExp05-Datapath\Code\IO\Counter_3_IO.v".
+WARNING:Xst:647 - Input <clk1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clk2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <counter1<32>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <counter2<32>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 24-bit register for signal <counter_Ctrl>.
+    Found 33-bit register for signal <counter0>.
+    Found 32-bit register for signal <counter0_Lock>.
+    Found 1-bit register for signal <sq0>.
+    Found 1-bit register for signal <M0>.
+    Found 1-bit register for signal <clr0>.
+    Found 33-bit subtractor for signal <counter0[32]_GND_33_o_sub_26_OUT> created at line 77.
+    Found 33-bit 4-to-1 multiplexer for signal <counter_Ctrl[2]_counter0[32]_wide_mux_26_OUT> created at line 70.
+    Found 1-bit comparator not equal for signal <n0017> created at line 76
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  92 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   5 Multiplexer(s).
+Unit <Counter_x> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 32-bit adder                                          : 3
+ 33-bit adder                                          : 2
+ 33-bit subtractor                                     : 1
+# Registers                                            : 9
+ 1-bit register                                        : 3
+ 24-bit register                                       : 1
+ 32-bit register                                       : 3
+ 33-bit register                                       : 1
+ 992-bit register                                      : 1
+# Comparators                                          : 1
+ 1-bit comparator not equal                            : 1
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 37
+ 32-bit 31-to-1 multiplexer                            : 2
+ 32-bit 8-to-1 multiplexer                             : 1
+ 33-bit 2-to-1 multiplexer                             : 4
+ 33-bit 4-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 2
+ 32-bit xor2                                           : 2
+
+=========================================================================
+WARNING:Xst - Property LOC on signal <SW> is not of the expected size.
+WARNING:Xst - Property LOC on signal <SW> is not of the expected size.
+WARNING:Xst - Property LOC on signal <SW> is not of the expected size.
+WARNING:Xst - Property LOC on signal <SW> is not of the expected size.
+WARNING:Xst - Property LOC on signal <SW> is not of the expected size.
+WARNING:Xst - Property LOC on signal <SW> is not of the expected size.
+WARNING:Xst - Property LOC on signal <SW> is not of the expected size.
+WARNING:Xst - Property LOC on signal <SW> is not of the expected size.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <Code/IO/SAnti_jitter.ngc>.
+Reading core <Code/IO/SEnter_2_32.ngc>.
+Reading core <Code/IO/MIO_BUS.ngc>.
+Reading core <Code/IO/SSeg7_Dev.ngc>.
+Reading core <Code/IO/Multi_8CH32.ngc>.
+Reading core <Code/IO/SPIO.ngc>.
+Reading core <Code/IO/PIO.ngc>.
+Reading core <ipcore_dir/RAM_B.ngc>.
+Reading core <Code/IO/Seg7_Dev.ngc>.
+Reading core <ipcore_dir/ROM_D.ngc>.
+Reading core <Code/SCPU_ctrl.ngc>.
+Loading core <SAnti_jitter> for timing and area information for instance <U9>.
+Loading core <SEnter_2_32> for timing and area information for instance <M4>.
+Loading core <MIO_BUS> for timing and area information for instance <U4>.
+Loading core <SSeg7_Dev> for timing and area information for instance <U6>.
+Loading core <Multi_8CH32> for timing and area information for instance <U5>.
+Loading core <SPIO> for timing and area information for instance <U7>.
+Loading core <PIO> for timing and area information for instance <U71>.
+Loading core <RAM_B> for timing and area information for instance <U3>.
+Loading core <Seg7_Dev> for timing and area information for instance <U61>.
+Loading core <ROM_D> for timing and area information for instance <U2>.
+Loading core <SCPU_ctrl> for timing and area information for instance <XLXI_1>.
+WARNING:Xst:2677 - Node <counter_Ctrl_0> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_3> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_4> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_5> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_6> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_7> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_8> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_9> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_10> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_11> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_12> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_13> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_14> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_15> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_16> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_17> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_18> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_19> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_20> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_21> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_22> of sequential type is unconnected in block <U10>.
+WARNING:Xst:2677 - Node <counter_Ctrl_23> of sequential type is unconnected in block <U10>.
+
+Synthesizing (advanced) Unit <clk_div>.
+The following registers are absorbed into counter <clkdiv>: 1 register on signal <clkdiv>.
+Unit <clk_div> synthesized (advanced).
+WARNING:Xst:2677 - Node <counter_Ctrl_0> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_3> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_4> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_5> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_6> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_7> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_8> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_9> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_10> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_11> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_12> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_13> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_14> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_15> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_16> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_17> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_18> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_19> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_20> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_21> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_22> of sequential type is unconnected in block <Counter_x>.
+WARNING:Xst:2677 - Node <counter_Ctrl_23> of sequential type is unconnected in block <Counter_x>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 32-bit adder                                          : 2
+ 33-bit adder carry in                                 : 1
+ 33-bit subtractor                                     : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1094
+ Flip-Flops                                            : 1094
+# Comparators                                          : 1
+ 1-bit comparator not equal                            : 1
+# Multiplexers                                         : 110
+ 1-bit 2-to-1 multiplexer                              : 66
+ 32-bit 2-to-1 multiplexer                             : 37
+ 32-bit 31-to-1 multiplexer                            : 2
+ 32-bit 8-to-1 multiplexer                             : 1
+ 33-bit 2-to-1 multiplexer                             : 2
+ 33-bit 4-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 2
+ 32-bit xor2                                           : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <alu_MUSER_Top_OExp03_IP2SOC> on signal <N1>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of XORCY instance <U1/XLXI_2/U1_1/XLXI_3/Madd_S_Madd_xor<32>>
+   GND from instance <U1/XLXI_2/U1_1/XLXI_14>
+   Dangling signal <U1/XLXI_2/U1_1/N1> in Unit <alu_MUSER_Top_OExp03_IP2SOC> is tied to 0 by XST
+   Dangling signal <U1/XLXI_2/U1_1/N1> in Unit <ADC32> is tied to 0 by XST
+   Dangling signal <U1/XLXI_2/U1_1/N1> in Unit <srl32> is tied to 0 by XST
+   Dangling signal <U1/XLXI_2/U1_1/N1> in Unit <or_bit_32> is tied to 0 by XST
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.49 secs
+ 
+--> 
+
+Total memory usage is 427980 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   85 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+

@@ -1,0 +1,90 @@
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp09-IP2MCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp09-IP2MCPU/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-1 Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp09-IP2MCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp09-IP2MCPU/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp09-IP2MCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp09-IP2MCPU/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp10-MDP/Framework.xst" -ofn "C:/zxd_CS/CC/OExp10-MDP/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.syr" 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+xst -intstyle ise -ifn "C:/zxd_CS/CC/OExp11-OwnMCPU_zxd/Framework.xst" -ofn "C:/zxd_CS/CC/OExp11-OwnMCPU_zxd/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd Code -sd ipcore_dir -nt timestamp -uc Code/Org-Sword.ucf -p xc7k160t-fbg676-2L Framework.ngc Framework.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 

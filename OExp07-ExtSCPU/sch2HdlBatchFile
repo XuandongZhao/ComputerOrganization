@@ -1,0 +1,3 @@
+sch2hdl,-sympath,C:/zxd_CS/CC/OExp07-ExtSCPU/Code,-sympath,C:/zxd_CS/CC/OExp07-ExtSCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/zxd_CS/CC/OExp07-ExtSCPU/SCPU_More.vf,-w,C:/zxd_CS/CC/OExp07-ExtSCPU/Code/SCPU_More.sch
+sch2hdl,-sympath,C:/zxd_CS/CC/OExp07-ExtSCPU/Code,-sympath,C:/zxd_CS/CC/OExp07-ExtSCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/zxd_CS/CC/OExp07-ExtSCPU/Framework.vf,-w,C:/zxd_CS/CC/OExp07-ExtSCPU/Code/Framework.sch
+sch2hdl,-sympath,C:/zxd_CS/CC/OExp07-ExtSCPU/Code,-sympath,C:/zxd_CS/CC/OExp07-ExtSCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/zxd_CS/CC/OExp07-ExtSCPU/Framework.vf,-w,C:/zxd_CS/CC/OExp07-ExtSCPU/Code/Framework.sch

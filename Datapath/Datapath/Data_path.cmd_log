@@ -1,0 +1,13 @@
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 
+xst -intstyle ise -ifn "D:/Computer Design/ex5/Datapath/Data_path.xst" -ofn "D:/Computer Design/ex5/Datapath/Data_path.syr" 
+xst -intstyle ise -ifn "D:/Computer Design/ex5/Datapath/Data_path.xst" -ofn "D:/Computer Design/ex5/Datapath/Data_path.syr" 
+xst -intstyle ise -ifn "D:/Computer Design/ex5/Datapath/Data_path.xst" -ofn "D:/Computer Design/ex5/Datapath/Data_path.syr" 
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {D:/Computer Design/ex5/Datapath/Data_path.sch} 

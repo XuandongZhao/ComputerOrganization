@@ -1,0 +1,1560 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'Top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o Top_map.ncd Top.ngd Top.pcf 
+Target Device  : xc7k160t
+Target Package : fbg676
+Target Speed   : -2l
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Tue Mar 21 13:36:17 2017
+
+Mapping design into LUTs...
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N88" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N92" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N90" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N86" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N8" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N12" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N10" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N6" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N16" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N20" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N18" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N14" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N96" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N100" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N98" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N94" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N104" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N108" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N106" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N102" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N112" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N116" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N114" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N110" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N120" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N124" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N122" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N118" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N128" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N132" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N130" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N126" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N136" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N140" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N138" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N134" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N144" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N148" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N146" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N142" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N152" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N156" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N154" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N150" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N160" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N164" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N162" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N158" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N168" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N172" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N170" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N166" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N24" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N28" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N26" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N22" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N176" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N180" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N178" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N174" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N184" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N188" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N186" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N182" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N192" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N196" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N194" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N190" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N200" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N204" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N202" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N198" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N208" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N212" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N210" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N206" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N216" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N220" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N218" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N214" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N224" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N228" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N226" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N222" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N232" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N236" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N234" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N230" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N240" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N244" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N242" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N238" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N248" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N252" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N250" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N246" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N32" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N36" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N34" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N30" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N256" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N260" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N258" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N254" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N40" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N44" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N42" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N38" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N48" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N52" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N50" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N46" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N56" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N60" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N58" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N54" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N64" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N68" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N66" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N62" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N72" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N76" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N74" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N70" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N80" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N84" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N82" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N78" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   : 256
+Number of warnings :   0

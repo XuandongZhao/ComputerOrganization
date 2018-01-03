@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/zxd_CS/CC/OExp01-Element/or32_test_isim_beh.exe" -prj "D:/zxd_CS/CC/OExp01-Element/or32_test_beh.prj" "work.or32_test" "work.glbl" 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {D:/Computer Design/ex5/Datapath/MUX2T1_5.v} -lang verilog -prj Datapath -o MUX2T1_5.spl -module MUX2T1_5 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 MUX2T1_5.spl {D:/Computer Design/ex5/Datapath/MUX2T1_5.sym} 

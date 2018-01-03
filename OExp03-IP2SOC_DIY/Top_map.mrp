@@ -1,0 +1,3080 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'Top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o Top_map.ncd Top.ngd Top.pcf 
+Target Device  : xc7k160t
+Target Package : fbg676
+Target Speed   : -2l
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Tue Mar 21 13:36:17 2017
+
+Design Summary
+--------------
+Number of errors   : 256
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N88" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N92" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N90" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N86" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N8" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N12" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N10" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N6" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N16" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N20" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N18" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N14" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N96" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N100" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N98" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N94" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N104" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N108" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N106" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N102" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N112" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N116" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N114" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N110" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N120" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N124" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N122" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N118" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N128" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N132" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N130" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N126" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N136" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N140" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N138" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N134" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N144" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N148" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N146" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N142" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N152" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N156" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N154" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N150" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N160" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N164" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N162" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N158" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N168" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N172" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N170" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N166" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N24" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N28" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N26" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N22" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N176" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N180" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N178" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N174" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N184" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N188" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N186" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N182" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N192" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N196" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N194" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N190" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N200" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N204" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N202" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N198" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N208" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N212" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N210" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N206" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N216" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N220" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N218" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N214" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N224" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N228" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N226" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N222" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N232" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N236" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N234" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N230" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N240" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N244" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N242" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N238" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N248" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N252" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N250" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N246" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N32" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N36" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N34" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N30" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N256" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N260" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N258" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N254" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N40" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N44" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N42" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N38" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N48" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N52" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N50" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N46" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N56" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N60" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N58" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N54" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N64" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N68" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N66" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N62" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N72" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N76" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N74" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N70" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N80" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N84" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N82" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has input signal
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N78" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1011"
+   (output signal=inst<10>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1101"
+   (output signal=inst<0>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1111"
+   (output signal=inst<1>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX11111
+   " (output signal=inst<11>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1211"
+   (output signal=inst<12>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1311"
+   (output signal=inst<13>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1411"
+   (output signal=inst<14>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1511"
+   (output signal=inst<15>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1611"
+   (output signal=inst<16>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1711"
+   (output signal=inst<17>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1811"
+   (output signal=inst<18>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX1911"
+   (output signal=inst<19>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2011"
+   (output signal=inst<20>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2111"
+   (output signal=inst<2>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX21111
+   " (output signal=inst<21>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2211"
+   (output signal=inst<22>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2311"
+   (output signal=inst<23>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2411"
+   (output signal=inst<24>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2511"
+   (output signal=inst<25>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2611"
+   (output signal=inst<26>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2711"
+   (output signal=inst<27>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2811"
+   (output signal=inst<28>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX2911"
+   (output signal=inst<29>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3011"
+   (output signal=inst<30>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX3111"
+   (output signal=inst<3>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX31111
+   " (output signal=inst<31>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX411"
+   (output signal=inst<4>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX511"
+   (output signal=inst<5>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX611"
+   (output signal=inst<6>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX711"
+   (output signal=inst<7>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX811"
+   (output signal=inst<8>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has an equation that uses input pin I2, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has an equation that uses input pin I3, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has an equation that uses input pin I4, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/inst_LPM_MUX911"
+   (output signal=inst<9>) has an equation that uses input pin I5, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network XLXI_3/blink<7> has no load.
+INFO:LIT:395 - The above info message is repeated 65 more times for the
+   following (max. 5 shown):
+   XLXI_3/blink<6>,
+   XLXI_3/blink<5>,
+   XLXI_3/blink<4>,
+   XLXI_3/blink<3>,
+   XLXI_3/blink<2>
+   To see the details of these info messages, please use the -detail switch.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 413 block(s) removed
+  29 block(s) optimized away
+ 447 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "XLXI_1/_n0225_inv1_cepot1" is sourceless and has been removed.
+ Sourceless block "XLXI_1/Key_out_0" (FF) removed.
+  The signal "XLXN_9<0>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<0>" (ROM) removed.
+    The signal "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<0>" is sourceless and has
+been removed.
+     Sourceless block "XLXI_1/Key_out_0_dpot" (ROM) removed.
+      The signal "XLXI_1/Key_out_0_dpot" is sourceless and has been removed.
+   Sourceless block "XLXI_3/Ai_0_rstpot" (ROM) removed.
+    The signal "XLXI_3/Ai_0_rstpot" is sourceless and has been removed.
+     Sourceless block "XLXI_3/Ai_0" (FF) removed.
+      The signal "Ai<0>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT231" (ROM) removed.
+        The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<2>" is sourceless and has been
+removed.
+         Sourceless block "XLXI_3/Ai_2_rstpot" (ROM) removed.
+          The signal "XLXI_3/Ai_2_rstpot" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Ai_2" (FF) removed.
+            The signal "Ai<2>" is sourceless and has been removed.
+             Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT291" (ROM) removed.
+              The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<6>" is sourceless and has been
+removed.
+               Sourceless block "XLXI_3/Ai_6_rstpot" (ROM) removed.
+                The signal "XLXI_3/Ai_6_rstpot" is sourceless and has been removed.
+                 Sourceless block "XLXI_3/Ai_6" (FF) removed.
+                  The signal "Ai<6>" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT21" (ROM) removed.
+                    The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<10>" is sourceless and has been
+removed.
+                     Sourceless block "XLXI_3/Ai_10_rstpot" (ROM) removed.
+                      The signal "XLXI_3/Ai_10_rstpot" is sourceless and has been removed.
+                       Sourceless block "XLXI_3/Ai_10" (FF) removed.
+                        The signal "Ai<10>" is sourceless and has been removed.
+                         Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT61" (ROM) removed.
+                          The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<14>" is sourceless and has been
+removed.
+                           Sourceless block "XLXI_3/Ai_14_rstpot" (ROM) removed.
+                            The signal "XLXI_3/Ai_14_rstpot" is sourceless and has been removed.
+                             Sourceless block "XLXI_3/Ai_14" (FF) removed.
+                              The signal "Ai<14>" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT101" (ROM) removed.
+                                The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<18>" is sourceless and has been
+removed.
+                                 Sourceless block "XLXI_3/Ai_18_rstpot" (ROM) removed.
+                                  The signal "XLXI_3/Ai_18_rstpot" is sourceless and has been removed.
+                                   Sourceless block "XLXI_3/Ai_18" (FF) removed.
+                                    The signal "Ai<18>" is sourceless and has been removed.
+                                     Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT151" (ROM) removed.
+                                      The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<22>" is sourceless and has been
+removed.
+                                       Sourceless block "XLXI_3/Ai_22_rstpot" (ROM) removed.
+                                        The signal "XLXI_3/Ai_22_rstpot" is sourceless and has been removed.
+                                         Sourceless block "XLXI_3/Ai_22" (FF) removed.
+                                          The signal "Ai<22>" is sourceless and has been removed.
+                                           Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT191" (ROM) removed.
+                                            The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<26>" is sourceless and has been
+removed.
+                                             Sourceless block "XLXI_3/Ai_26_rstpot" (ROM) removed.
+                                              The signal "XLXI_3/Ai_26_rstpot" is sourceless and has been removed.
+                                               Sourceless block "XLXI_3/Ai_26" (FF) removed.
+                                                The signal "Ai<26>" is sourceless and has been removed.
+                                                 Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT241" (ROM) removed.
+*The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<30>" is sourceless and has been
+removed.
+* Sourceless block "XLXI_3/Ai_30_rstpot" (ROM) removed.
+*  The signal "XLXI_3/Ai_30_rstpot" is sourceless and has been removed.
+*   Sourceless block "XLXI_3/Ai_30" (FF) removed.
+*    The signal "Ai<30>" is sourceless and has been removed.
+*     Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT25" (ROM) removed.
+*      The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<31>" is sourceless and has been
+removed.
+*       Sourceless block "XLXI_3/Ai_31" (FF) removed.
+*        The signal "Ai<31>" is sourceless and has been removed.
+*         Sourceless block "XLXI_23/GPIOf0_21" (FF) removed.
+*          The signal "XLXI_23/GPIOf0<21>" is sourceless and has been removed.
+*     Sourceless block "XLXI_23/GPIOf0_20" (FF) removed.
+*      The signal "XLXI_23/GPIOf0<20>" is sourceless and has been removed.
+                                                 Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT20" (ROM) removed.
+*The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<27>" is sourceless and has been
+removed.
+* Sourceless block "XLXI_3/Ai_27" (FF) removed.
+*  The signal "Ai<27>" is sourceless and has been removed.
+*   Sourceless block "XLXI_23/GPIOf0_17" (FF) removed.
+*    The signal "XLXI_23/GPIOf0<17>" is sourceless and has been removed.
+                                                 Sourceless block "XLXI_23/GPIOf0_16" (FF) removed.
+*The signal "XLXI_23/GPIOf0<16>" is sourceless and has been removed.
+                                           Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT16" (ROM) removed.
+                                            The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<23>" is sourceless and has been
+removed.
+                                             Sourceless block "XLXI_3/Ai_23" (FF) removed.
+                                              The signal "Ai<23>" is sourceless and has been removed.
+                                               Sourceless block "XLXI_23/GPIOf0_13" (FF) removed.
+                                                The signal "XLXI_23/GPIOf0<13>" is sourceless and has been removed.
+                                           Sourceless block "XLXI_23/GPIOf0_12" (FF) removed.
+                                            The signal "XLXI_23/GPIOf0<12>" is sourceless and has been removed.
+                                     Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT11" (ROM) removed.
+                                      The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<19>" is sourceless and has been
+removed.
+                                       Sourceless block "XLXI_3/Ai_19" (FF) removed.
+                                        The signal "Ai<19>" is sourceless and has been removed.
+                                         Sourceless block "XLXI_23/GPIOf0_9" (FF) removed.
+                                          The signal "XLXI_23/GPIOf0<9>" is sourceless and has been removed.
+                                     Sourceless block "XLXI_23/GPIOf0_8" (FF) removed.
+                                      The signal "XLXI_23/GPIOf0<8>" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT7" (ROM) removed.
+                                The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<15>" is sourceless and has been
+removed.
+                                 Sourceless block "XLXI_3/Ai_15" (FF) removed.
+                                  The signal "Ai<15>" is sourceless and has been removed.
+                                   Sourceless block "XLXI_23/GPIOf0_5" (FF) removed.
+                                    The signal "XLXI_23/GPIOf0<5>" is sourceless and has been removed.
+                               Sourceless block "XLXI_23/GPIOf0_4" (FF) removed.
+                                The signal "XLXI_23/GPIOf0<4>" is sourceless and has been removed.
+                         Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT3_SW0" (ROM) removed.
+                          The signal "XLXI_3/N01" is sourceless and has been removed.
+                           Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT3" (ROM) removed.
+                            The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<11>" is sourceless and has been
+removed.
+                             Sourceless block "XLXI_3/Ai_11" (FF) removed.
+                              The signal "Ai<11>" is sourceless and has been removed.
+                               Sourceless block "XLXI_23/GPIOf0_1" (FF) removed.
+                                The signal "XLXI_23/GPIOf0<1>" is sourceless and has been removed.
+                         Sourceless block "XLXI_23/GPIOf0_0" (FF) removed.
+                          The signal "XLXI_23/GPIOf0<0>" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT30" (ROM) removed.
+                    The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<7>" is sourceless and has been
+removed.
+                     Sourceless block "XLXI_3/Ai_7" (FF) removed.
+                      The signal "Ai<7>" is sourceless and has been removed.
+             Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT26" (ROM) removed.
+              The signal "XLXI_3/Ai[31]_Ai[31]_mux_48_OUT<3>" is sourceless and has been
+removed.
+               Sourceless block "XLXI_3/Ai_3" (FF) removed.
+                The signal "Ai<3>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT26_SW0" (ROM) removed.
+        The signal "XLXI_3/N12" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Ai_4_rstpot" (ROM) removed.
+        The signal "XLXI_3/Ai_4_rstpot" is sourceless and has been removed.
+         Sourceless block "XLXI_3/Ai_4" (FF) removed.
+          The signal "Ai<4>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT30_SW0" (ROM) removed.
+            The signal "XLXI_3/N14" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Ai_8_rstpot" (ROM) removed.
+            The signal "XLXI_3/Ai_8_rstpot" is sourceless and has been removed.
+             Sourceless block "XLXI_3/Ai_8" (FF) removed.
+              The signal "Ai<8>" is sourceless and has been removed.
+               Sourceless block "XLXI_3/Ai_12_rstpot" (ROM) removed.
+                The signal "XLXI_3/Ai_12_rstpot" is sourceless and has been removed.
+                 Sourceless block "XLXI_3/Ai_12" (FF) removed.
+                  The signal "Ai<12>" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT7_SW0" (ROM) removed.
+                    The signal "XLXI_3/N2" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Ai_16_rstpot" (ROM) removed.
+                    The signal "XLXI_3/Ai_16_rstpot" is sourceless and has been removed.
+                     Sourceless block "XLXI_3/Ai_16" (FF) removed.
+                      The signal "Ai<16>" is sourceless and has been removed.
+                       Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT11_SW0" (ROM) removed.
+                        The signal "XLXI_3/N4" is sourceless and has been removed.
+                       Sourceless block "XLXI_3/Ai_20_rstpot" (ROM) removed.
+                        The signal "XLXI_3/Ai_20_rstpot" is sourceless and has been removed.
+                         Sourceless block "XLXI_3/Ai_20" (FF) removed.
+                          The signal "Ai<20>" is sourceless and has been removed.
+                           Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT16_SW0" (ROM) removed.
+                            The signal "XLXI_3/N6" is sourceless and has been removed.
+                           Sourceless block "XLXI_3/Ai_24_rstpot" (ROM) removed.
+                            The signal "XLXI_3/Ai_24_rstpot" is sourceless and has been removed.
+                             Sourceless block "XLXI_3/Ai_24" (FF) removed.
+                              The signal "Ai<24>" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT20_SW0" (ROM) removed.
+                                The signal "XLXI_3/N8" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Ai_28_rstpot" (ROM) removed.
+                                The signal "XLXI_3/Ai_28_rstpot" is sourceless and has been removed.
+                                 Sourceless block "XLXI_3/Ai_28" (FF) removed.
+                                  The signal "Ai<28>" is sourceless and has been removed.
+                                   Sourceless block "XLXI_3/Mmux_Ai[31]_Ai[31]_mux_48_OUT25_SW0" (ROM) removed.
+                                    The signal "XLXI_3/N10" is sourceless and has been removed.
+                                   Sourceless block "XLXI_3/Ai_29_rstpot" (ROM) removed.
+                                    The signal "XLXI_3/Ai_29_rstpot" is sourceless and has been removed.
+                                     Sourceless block "XLXI_3/Ai_29" (FF) removed.
+                                      The signal "Ai<29>" is sourceless and has been removed.
+                                       Sourceless block "XLXI_23/GPIOf0_19" (FF) removed.
+                                        The signal "XLXI_23/GPIOf0<19>" is sourceless and has been removed.
+                                   Sourceless block "XLXI_23/GPIOf0_18" (FF) removed.
+                                    The signal "XLXI_23/GPIOf0<18>" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Ai_25_rstpot" (ROM) removed.
+                                The signal "XLXI_3/Ai_25_rstpot" is sourceless and has been removed.
+                                 Sourceless block "XLXI_3/Ai_25" (FF) removed.
+                                  The signal "Ai<25>" is sourceless and has been removed.
+                                   Sourceless block "XLXI_23/GPIOf0_15" (FF) removed.
+                                    The signal "XLXI_23/GPIOf0<15>" is sourceless and has been removed.
+                               Sourceless block "XLXI_23/GPIOf0_14" (FF) removed.
+                                The signal "XLXI_23/GPIOf0<14>" is sourceless and has been removed.
+                           Sourceless block "XLXI_3/Ai_21_rstpot" (ROM) removed.
+                            The signal "XLXI_3/Ai_21_rstpot" is sourceless and has been removed.
+                             Sourceless block "XLXI_3/Ai_21" (FF) removed.
+                              The signal "Ai<21>" is sourceless and has been removed.
+                               Sourceless block "XLXI_23/GPIOf0_11" (FF) removed.
+                                The signal "XLXI_23/GPIOf0<11>" is sourceless and has been removed.
+                           Sourceless block "XLXI_23/GPIOf0_10" (FF) removed.
+                            The signal "XLXI_23/GPIOf0<10>" is sourceless and has been removed.
+                       Sourceless block "XLXI_3/Ai_17_rstpot" (ROM) removed.
+                        The signal "XLXI_3/Ai_17_rstpot" is sourceless and has been removed.
+                         Sourceless block "XLXI_3/Ai_17" (FF) removed.
+                          The signal "Ai<17>" is sourceless and has been removed.
+                           Sourceless block "XLXI_23/GPIOf0_7" (FF) removed.
+                            The signal "XLXI_23/GPIOf0<7>" is sourceless and has been removed.
+                       Sourceless block "XLXI_23/GPIOf0_6" (FF) removed.
+                        The signal "XLXI_23/GPIOf0<6>" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Ai_13_rstpot" (ROM) removed.
+                    The signal "XLXI_3/Ai_13_rstpot" is sourceless and has been removed.
+                     Sourceless block "XLXI_3/Ai_13" (FF) removed.
+                      The signal "Ai<13>" is sourceless and has been removed.
+                       Sourceless block "XLXI_23/GPIOf0_3" (FF) removed.
+                        The signal "XLXI_23/GPIOf0<3>" is sourceless and has been removed.
+                   Sourceless block "XLXI_23/GPIOf0_2" (FF) removed.
+                    The signal "XLXI_23/GPIOf0<2>" is sourceless and has been removed.
+               Sourceless block "XLXI_3/Ai_9_rstpot" (ROM) removed.
+                The signal "XLXI_3/Ai_9_rstpot" is sourceless and has been removed.
+                 Sourceless block "XLXI_3/Ai_9" (FF) removed.
+                  The signal "Ai<9>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Ai_5_rstpot" (ROM) removed.
+            The signal "XLXI_3/Ai_5_rstpot" is sourceless and has been removed.
+             Sourceless block "XLXI_3/Ai_5" (FF) removed.
+              The signal "Ai<5>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Ai_1_rstpot" (ROM) removed.
+        The signal "XLXI_3/Ai_1_rstpot" is sourceless and has been removed.
+         Sourceless block "XLXI_3/Ai_1" (FF) removed.
+          The signal "Ai<1>" is sourceless and has been removed.
+           Sourceless block "XLXI_23/counter_set_1" (FF) removed.
+            The signal "XLXI_23/counter_set<1>" is sourceless and has been removed.
+       Sourceless block "XLXI_23/counter_set_0" (FF) removed.
+        The signal "XLXI_23/counter_set<0>" is sourceless and has been removed.
+   Sourceless block "XLXI_3/Bi_0_rstpot" (ROM) removed.
+    The signal "XLXI_3/Bi_0_rstpot" is sourceless and has been removed.
+     Sourceless block "XLXI_3/Bi_0" (FF) removed.
+      The signal "XLXI_3/Bi<0>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT231" (ROM) removed.
+        The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<2>" is sourceless and has been
+removed.
+         Sourceless block "XLXI_3/Bi_2_rstpot" (ROM) removed.
+          The signal "XLXI_3/Bi_2_rstpot" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Bi_2" (FF) removed.
+            The signal "XLXI_3/Bi<2>" is sourceless and has been removed.
+             Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT291" (ROM) removed.
+              The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<6>" is sourceless and has been
+removed.
+               Sourceless block "XLXI_3/Bi_6_rstpot" (ROM) removed.
+                The signal "XLXI_3/Bi_6_rstpot" is sourceless and has been removed.
+                 Sourceless block "XLXI_3/Bi_6" (FF) removed.
+                  The signal "XLXI_3/Bi<6>" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT21" (ROM) removed.
+                    The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<10>" is sourceless and has been
+removed.
+                     Sourceless block "XLXI_3/Bi_10_rstpot" (ROM) removed.
+                      The signal "XLXI_3/Bi_10_rstpot" is sourceless and has been removed.
+                       Sourceless block "XLXI_3/Bi_10" (FF) removed.
+                        The signal "XLXI_3/Bi<10>" is sourceless and has been removed.
+                         Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT61" (ROM) removed.
+                          The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<14>" is sourceless and has been
+removed.
+                           Sourceless block "XLXI_3/Bi_14_rstpot" (ROM) removed.
+                            The signal "XLXI_3/Bi_14_rstpot" is sourceless and has been removed.
+                             Sourceless block "XLXI_3/Bi_14" (FF) removed.
+                              The signal "XLXI_3/Bi<14>" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT101" (ROM) removed.
+                                The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<18>" is sourceless and has been
+removed.
+                                 Sourceless block "XLXI_3/Bi_18_rstpot" (ROM) removed.
+                                  The signal "XLXI_3/Bi_18_rstpot" is sourceless and has been removed.
+                                   Sourceless block "XLXI_3/Bi_18" (FF) removed.
+                                    The signal "XLXI_3/Bi<18>" is sourceless and has been removed.
+                                     Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT151" (ROM) removed.
+                                      The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<22>" is sourceless and has been
+removed.
+                                       Sourceless block "XLXI_3/Bi_22_rstpot" (ROM) removed.
+                                        The signal "XLXI_3/Bi_22_rstpot" is sourceless and has been removed.
+                                         Sourceless block "XLXI_3/Bi_22" (FF) removed.
+                                          The signal "XLXI_3/Bi<22>" is sourceless and has been removed.
+                                           Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT191" (ROM) removed.
+                                            The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<26>" is sourceless and has been
+removed.
+                                             Sourceless block "XLXI_3/Bi_26_rstpot" (ROM) removed.
+                                              The signal "XLXI_3/Bi_26_rstpot" is sourceless and has been removed.
+                                               Sourceless block "XLXI_3/Bi_26" (FF) removed.
+                                                The signal "XLXI_3/Bi<26>" is sourceless and has been removed.
+                                                 Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT241" (ROM) removed.
+*The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<30>" is sourceless and has been
+removed.
+* Sourceless block "XLXI_3/Bi_30_rstpot" (ROM) removed.
+*  The signal "XLXI_3/Bi_30_rstpot" is sourceless and has been removed.
+*   Sourceless block "XLXI_3/Bi_30" (FF) removed.
+*    The signal "XLXI_3/Bi<30>" is sourceless and has been removed.
+*     Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT25" (ROM) removed.
+*      The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<31>" is sourceless and has been
+removed.
+*       Sourceless block "XLXI_3/Bi_31" (FF) removed.
+*        The signal "XLXI_3/Bi<31>" is sourceless and has been removed.
+                                                 Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT20" (ROM) removed.
+*The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<27>" is sourceless and has been
+removed.
+* Sourceless block "XLXI_3/Bi_27" (FF) removed.
+*  The signal "XLXI_3/Bi<27>" is sourceless and has been removed.
+                                           Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT16" (ROM) removed.
+                                            The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<23>" is sourceless and has been
+removed.
+                                             Sourceless block "XLXI_3/Bi_23" (FF) removed.
+                                              The signal "XLXI_3/Bi<23>" is sourceless and has been removed.
+                                     Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT11" (ROM) removed.
+                                      The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<19>" is sourceless and has been
+removed.
+                                       Sourceless block "XLXI_3/Bi_19" (FF) removed.
+                                        The signal "XLXI_3/Bi<19>" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT7" (ROM) removed.
+                                The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<15>" is sourceless and has been
+removed.
+                                 Sourceless block "XLXI_3/Bi_15" (FF) removed.
+                                  The signal "XLXI_3/Bi<15>" is sourceless and has been removed.
+                         Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT3_SW0" (ROM) removed.
+                          The signal "XLXI_3/N16" is sourceless and has been removed.
+                           Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT3" (ROM) removed.
+                            The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<11>" is sourceless and has been
+removed.
+                             Sourceless block "XLXI_3/Bi_11" (FF) removed.
+                              The signal "XLXI_3/Bi<11>" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT30" (ROM) removed.
+                    The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<7>" is sourceless and has been
+removed.
+                     Sourceless block "XLXI_3/Bi_7" (FF) removed.
+                      The signal "XLXI_3/Bi<7>" is sourceless and has been removed.
+             Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT26" (ROM) removed.
+              The signal "XLXI_3/Bi[31]_Bi[31]_mux_49_OUT<3>" is sourceless and has been
+removed.
+               Sourceless block "XLXI_3/Bi_3" (FF) removed.
+                The signal "XLXI_3/Bi<3>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT26_SW0" (ROM) removed.
+        The signal "XLXI_3/N28" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Bi_4_rstpot" (ROM) removed.
+        The signal "XLXI_3/Bi_4_rstpot" is sourceless and has been removed.
+         Sourceless block "XLXI_3/Bi_4" (FF) removed.
+          The signal "XLXI_3/Bi<4>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT30_SW0" (ROM) removed.
+            The signal "XLXI_3/N30" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Bi_8_rstpot" (ROM) removed.
+            The signal "XLXI_3/Bi_8_rstpot" is sourceless and has been removed.
+             Sourceless block "XLXI_3/Bi_8" (FF) removed.
+              The signal "XLXI_3/Bi<8>" is sourceless and has been removed.
+               Sourceless block "XLXI_3/Bi_12_rstpot" (ROM) removed.
+                The signal "XLXI_3/Bi_12_rstpot" is sourceless and has been removed.
+                 Sourceless block "XLXI_3/Bi_12" (FF) removed.
+                  The signal "XLXI_3/Bi<12>" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT7_SW0" (ROM) removed.
+                    The signal "XLXI_3/N18" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Bi_16_rstpot" (ROM) removed.
+                    The signal "XLXI_3/Bi_16_rstpot" is sourceless and has been removed.
+                     Sourceless block "XLXI_3/Bi_16" (FF) removed.
+                      The signal "XLXI_3/Bi<16>" is sourceless and has been removed.
+                       Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT11_SW0" (ROM) removed.
+                        The signal "XLXI_3/N20" is sourceless and has been removed.
+                       Sourceless block "XLXI_3/Bi_20_rstpot" (ROM) removed.
+                        The signal "XLXI_3/Bi_20_rstpot" is sourceless and has been removed.
+                         Sourceless block "XLXI_3/Bi_20" (FF) removed.
+                          The signal "XLXI_3/Bi<20>" is sourceless and has been removed.
+                           Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT16_SW0" (ROM) removed.
+                            The signal "XLXI_3/N22" is sourceless and has been removed.
+                           Sourceless block "XLXI_3/Bi_24_rstpot" (ROM) removed.
+                            The signal "XLXI_3/Bi_24_rstpot" is sourceless and has been removed.
+                             Sourceless block "XLXI_3/Bi_24" (FF) removed.
+                              The signal "XLXI_3/Bi<24>" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT20_SW0" (ROM) removed.
+                                The signal "XLXI_3/N24" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Bi_28_rstpot" (ROM) removed.
+                                The signal "XLXI_3/Bi_28_rstpot" is sourceless and has been removed.
+                                 Sourceless block "XLXI_3/Bi_28" (FF) removed.
+                                  The signal "XLXI_3/Bi<28>" is sourceless and has been removed.
+                                   Sourceless block "XLXI_3/Mmux_Bi[31]_Bi[31]_mux_49_OUT25_SW0" (ROM) removed.
+                                    The signal "XLXI_3/N26" is sourceless and has been removed.
+                                   Sourceless block "XLXI_3/Bi_29_rstpot" (ROM) removed.
+                                    The signal "XLXI_3/Bi_29_rstpot" is sourceless and has been removed.
+                                     Sourceless block "XLXI_3/Bi_29" (FF) removed.
+                                      The signal "XLXI_3/Bi<29>" is sourceless and has been removed.
+                               Sourceless block "XLXI_3/Bi_25_rstpot" (ROM) removed.
+                                The signal "XLXI_3/Bi_25_rstpot" is sourceless and has been removed.
+                                 Sourceless block "XLXI_3/Bi_25" (FF) removed.
+                                  The signal "XLXI_3/Bi<25>" is sourceless and has been removed.
+                           Sourceless block "XLXI_3/Bi_21_rstpot" (ROM) removed.
+                            The signal "XLXI_3/Bi_21_rstpot" is sourceless and has been removed.
+                             Sourceless block "XLXI_3/Bi_21" (FF) removed.
+                              The signal "XLXI_3/Bi<21>" is sourceless and has been removed.
+                       Sourceless block "XLXI_3/Bi_17_rstpot" (ROM) removed.
+                        The signal "XLXI_3/Bi_17_rstpot" is sourceless and has been removed.
+                         Sourceless block "XLXI_3/Bi_17" (FF) removed.
+                          The signal "XLXI_3/Bi<17>" is sourceless and has been removed.
+                   Sourceless block "XLXI_3/Bi_13_rstpot" (ROM) removed.
+                    The signal "XLXI_3/Bi_13_rstpot" is sourceless and has been removed.
+                     Sourceless block "XLXI_3/Bi_13" (FF) removed.
+                      The signal "XLXI_3/Bi<13>" is sourceless and has been removed.
+               Sourceless block "XLXI_3/Bi_9_rstpot" (ROM) removed.
+                The signal "XLXI_3/Bi_9_rstpot" is sourceless and has been removed.
+                 Sourceless block "XLXI_3/Bi_9" (FF) removed.
+                  The signal "XLXI_3/Bi<9>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Bi_5_rstpot" (ROM) removed.
+            The signal "XLXI_3/Bi_5_rstpot" is sourceless and has been removed.
+             Sourceless block "XLXI_3/Bi_5" (FF) removed.
+              The signal "XLXI_3/Bi<5>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Bi_1_rstpot" (ROM) removed.
+        The signal "XLXI_3/Bi_1_rstpot" is sourceless and has been removed.
+         Sourceless block "XLXI_3/Bi_1" (FF) removed.
+          The signal "XLXI_3/Bi<1>" is sourceless and has been removed.
+ Sourceless block "XLXI_1/Key_out_1" (FF) removed.
+  The signal "XLXN_9<1>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<1>" (ROM) removed.
+    The signal "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<1>" is sourceless and has
+been removed.
+     Sourceless block "XLXI_1/Key_out_1_dpot" (ROM) removed.
+      The signal "XLXI_1/Key_out_1_dpot" is sourceless and has been removed.
+ Sourceless block "XLXI_1/Key_out_2" (FF) removed.
+  The signal "XLXN_9<2>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/Key_out_2_dpot" (ROM) removed.
+    The signal "XLXI_1/Key_out_2_dpot" is sourceless and has been removed.
+   Sourceless block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<2>" (MUX) removed.
+    The signal "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<2>" is sourceless and has
+been removed.
+ Sourceless block "XLXI_1/Key_out_3" (FF) removed.
+  The signal "XLXN_9<3>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/Key_out_3_dpot" (ROM) removed.
+    The signal "XLXI_1/Key_out_3_dpot" is sourceless and has been removed.
+   Sourceless block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<3>" (MUX) removed.
+    The signal "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<3>" is sourceless and has
+been removed.
+The signal "XLXI_1/Key_out_4_dpot" is sourceless and has been removed.
+ Sourceless block "XLXI_1/Key_out_4" (FF) removed.
+  The signal "XLXN_9<4>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/Key_out_4_dpot" (ROM) removed.
+The signal "XLXI_1/N15" is sourceless and has been removed.
+The signal "XLXI_1/_n0308" is sourceless and has been removed.
+The signal "XLXI_1/pulse_out_0_rstpot" is sourceless and has been removed.
+ Sourceless block "XLXI_1/pulse_out_0" (FF) removed.
+  The signal "BTN_OK<0>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/pulse_out_0_rstpot" (ROM) removed.
+   Sourceless block "XLXI_3/push1" (ROM) removed.
+    The signal "XLXI_3/push" is sourceless and has been removed.
+     Sourceless block "XLXI_3/state_0" (FF) removed.
+      The signal "XLXI_3/state<0>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Result<2>1" (ROM) removed.
+        The signal "XLXI_3/Result<2>" is sourceless and has been removed.
+         Sourceless block "XLXI_3/state_2" (FF) removed.
+          The signal "XLXI_3/state<2>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT1101" (ROM)
+removed.
+            The signal "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT110" is sourceless and
+has been removed.
+           Sourceless block "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT2711" (ROM)
+removed.
+            The signal "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT271" is sourceless and
+has been removed.
+           Sourceless block "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT3111" (ROM)
+removed.
+            The signal "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT311" is sourceless and
+has been removed.
+           Sourceless block "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT411" (ROM) removed.
+            The signal "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT41" is sourceless and has
+been removed.
+           Sourceless block "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT811" (ROM) removed.
+            The signal "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT81" is sourceless and has
+been removed.
+           Sourceless block "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT1311" (ROM)
+removed.
+            The signal "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT131" is sourceless and
+has been removed.
+           Sourceless block "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT1711" (ROM)
+removed.
+            The signal "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT171" is sourceless and
+has been removed.
+           Sourceless block "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT2111" (ROM)
+removed.
+            The signal "XLXI_3/Mmux_state[2]_Ai[31]_wide_mux_26_OUT211" is sourceless and
+has been removed.
+           Sourceless block "XLXI_3/Mmux_blink81" (ROM) removed.
+            The signal "XLXI_3/blink<7>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_blink71" (ROM) removed.
+            The signal "XLXI_3/blink<6>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_blink61" (ROM) removed.
+            The signal "XLXI_3/blink<5>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_blink51" (ROM) removed.
+            The signal "XLXI_3/blink<4>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_blink41" (ROM) removed.
+            The signal "XLXI_3/blink<3>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_blink31" (ROM) removed.
+            The signal "XLXI_3/blink<2>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_blink21" (ROM) removed.
+            The signal "XLXI_3/blink<1>" is sourceless and has been removed.
+           Sourceless block "XLXI_3/Mmux_blink11" (ROM) removed.
+            The signal "XLXI_3/blink<0>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Result<1>1" (ROM) removed.
+        The signal "XLXI_3/Result<1>" is sourceless and has been removed.
+         Sourceless block "XLXI_3/state_1" (FF) removed.
+          The signal "XLXI_3/state<1>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/Result<0>1_INV_0" (BUF) removed.
+        The signal "XLXI_3/Result<0>" is sourceless and has been removed.
+The signal "XLXI_1/pulse_out_1_rstpot" is sourceless and has been removed.
+ Sourceless block "XLXI_1/pulse_out_1" (FF) removed.
+  The signal "BTN_OK<1>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/pulse_out_1_rstpot" (ROM) removed.
+The signal "XLXI_1/pulse_out_2_rstpot" is sourceless and has been removed.
+ Sourceless block "XLXI_1/pulse_out_2" (FF) removed.
+  The signal "BTN_OK<2>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/pulse_out_2_rstpot" (ROM) removed.
+   Sourceless block "XLXI_3/get_B_0" (FF) removed.
+    The signal "XLXI_3/get_B<0>" is sourceless and has been removed.
+     Sourceless block "XLXI_3/get_B_1" (FF) removed.
+      The signal "XLXI_3/get_B<1>" is sourceless and has been removed.
+       Sourceless block "XLXI_3/_n0187_inv12" (ROM) removed.
+        The signal "XLXI_3/_n0187_inv11" is sourceless and has been removed.
+         Sourceless block "XLXI_3/_n0187_inv13" (ROM) removed.
+          The signal "XLXI_3/_n0187_inv" is sourceless and has been removed.
+         Sourceless block "XLXI_3/_n0176_inv13" (ROM) removed.
+          The signal "XLXI_3/_n0176_inv" is sourceless and has been removed.
+         Sourceless block "XLXI_3/_n0187_inv13_1" (ROM) removed.
+          The signal "XLXI_3/_n0187_inv13" is sourceless and has been removed.
+         Sourceless block "XLXI_3/_n0176_inv13_1" (ROM) removed.
+          The signal "XLXI_3/_n0176_inv13" is sourceless and has been removed.
+The signal "XLXI_1/pulse_out_3_rstpot" is sourceless and has been removed.
+ Sourceless block "XLXI_1/pulse_out_3" (FF) removed.
+  The signal "BTN_OK<3>" is sourceless and has been removed.
+   Sourceless block "XLXI_1/pulse_out_3_rstpot" (ROM) removed.
+The signal "XLXI_1/N154" is sourceless and has been removed.
+The signal "XLXI_1/N155" is sourceless and has been removed.
+The signal "XLXI_1/N156" is sourceless and has been removed.
+The signal "XLXI_1/N157" is sourceless and has been removed.
+The signal "XLXI_3/n0001_inv" is sourceless and has been removed.
+The signal "XLXI_3/_n0187_inv1" is sourceless and has been removed.
+The signal "XLXI_3/_n0176_inv1" is sourceless and has been removed.
+The signal "XLXI_23/_n0026_inv" is sourceless and has been removed.
+The signal "XLXI_20/N1" is sourceless and has been removed.
+The signal "XLXI_20/N0" is sourceless and has been removed.
+The signal "XLXI_39/d<31>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram127" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N258" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram126" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N256" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram128" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N260" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram125" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N254" is
+sourceless and has been removed.
+The signal "XLXI_39/d<30>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram124" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N252" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram122" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N248" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram121" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N246" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram123" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N250" is
+sourceless and has been removed.
+The signal "XLXI_39/d<29>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram120" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N244" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram119" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N242" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram117" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N238" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram118" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N240" is
+sourceless and has been removed.
+The signal "XLXI_39/d<28>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram116" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N236" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram115" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N234" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram114" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N232" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram113" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N230" is
+sourceless and has been removed.
+The signal "XLXI_39/d<27>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram112" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N228" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram111" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N226" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram110" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N224" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram109" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N222" is
+sourceless and has been removed.
+The signal "XLXI_39/d<26>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram107" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N218" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram106" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N216" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram108" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N220" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram105" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N214" is
+sourceless and has been removed.
+The signal "XLXI_39/d<25>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram104" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N212" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram102" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N208" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram101" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N206" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram103" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N210" is
+sourceless and has been removed.
+The signal "XLXI_39/d<24>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram100" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N204" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram99" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N202" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram97" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N198" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram98" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N200" is
+sourceless and has been removed.
+The signal "XLXI_39/d<23>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram96" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N196" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram95" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N194" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram94" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N192" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram93" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N190" is
+sourceless and has been removed.
+The signal "XLXI_39/d<22>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram92" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N188" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram91" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N186" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram90" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N184" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram89" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N182" is
+sourceless and has been removed.
+The signal "XLXI_39/d<21>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram87" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N178" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram86" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N176" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram88" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N180" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram85" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N174" is
+sourceless and has been removed.
+The signal "XLXI_39/d<20>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram84" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N172" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram82" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N168" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram81" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N166" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram83" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N170" is
+sourceless and has been removed.
+The signal "XLXI_39/d<19>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram80" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N164" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram79" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N162" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram77" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N158" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram78" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N160" is
+sourceless and has been removed.
+The signal "XLXI_39/d<18>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram76" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N156" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram75" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N154" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram74" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N152" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram73" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N150" is
+sourceless and has been removed.
+The signal "XLXI_39/d<17>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram72" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N148" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram71" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N146" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram70" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N144" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram69" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N142" is
+sourceless and has been removed.
+The signal "XLXI_39/d<16>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram67" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N138" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram66" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N136" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram68" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N140" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram65" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N134" is
+sourceless and has been removed.
+The signal "XLXI_39/d<15>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram64" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N132" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram62" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N128" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram61" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N126" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram63" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N130" is
+sourceless and has been removed.
+The signal "XLXI_39/d<14>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram60" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N124" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram59" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N122" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram57" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N118" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram58" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N120" is
+sourceless and has been removed.
+The signal "XLXI_39/d<13>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram56" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N116" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram55" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N114" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram54" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N112" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram53" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N110" is
+sourceless and has been removed.
+The signal "XLXI_39/d<12>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram52" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N108" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram51" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N106" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram50" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N104" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram49" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N102" is
+sourceless and has been removed.
+The signal "XLXI_39/d<11>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram47" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N98" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram46" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N96" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram48" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N100" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram45" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N94" is
+sourceless and has been removed.
+The signal "XLXI_39/d<10>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram44" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N92" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram42" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N88" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram41" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N86" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram43" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N90" is
+sourceless and has been removed.
+The signal "XLXI_39/d<9>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram40" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N84" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram39" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N82" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram37" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N78" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram38" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N80" is
+sourceless and has been removed.
+The signal "XLXI_39/d<8>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram36" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N76" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram35" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N74" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram34" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N72" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram33" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N70" is
+sourceless and has been removed.
+The signal "XLXI_39/d<7>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram32" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N68" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram31" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N66" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram30" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N64" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram29" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N62" is
+sourceless and has been removed.
+The signal "XLXI_39/d<6>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram27" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N58" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram26" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N56" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram28" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N60" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram25" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N54" is
+sourceless and has been removed.
+The signal "XLXI_39/d<5>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram24" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N52" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram22" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N48" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram21" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N46" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram23" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N50" is
+sourceless and has been removed.
+The signal "XLXI_39/d<4>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram20" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N44" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram19" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N42" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram17" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N38" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram18" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N40" is
+sourceless and has been removed.
+The signal "XLXI_39/d<3>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram16" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N36" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram15" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N34" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram14" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N32" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram13" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N30" is
+sourceless and has been removed.
+The signal "XLXI_39/d<2>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram12" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N28" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram11" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N26" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram10" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N24" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram9" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N22" is
+sourceless and has been removed.
+The signal "XLXI_39/d<1>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram7" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N18" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram6" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N16" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram8" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N20" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram5" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N14" is
+sourceless and has been removed.
+The signal "XLXI_39/d<0>" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram4" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N12" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram3" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N10" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram1" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N6" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/Mram_ram2" (RAMS)
+removed.
+  The signal "XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/N8" is
+sourceless and has been removed.
+The signal "XLXI_39/clk" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_31" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<31>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_30" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<30>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_29" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<29>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_28" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<28>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_27" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<27>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_26" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<26>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_25" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<25>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_24" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<24>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_23" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<23>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_22" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<22>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_21" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<21>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_20" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<20>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_19" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<19>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_18" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<18>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_17" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<17>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_16" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<16>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_15" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<15>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_14" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<14>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_13" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<13>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_12" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<12>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_11" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<11>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_10" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<10>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_9" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<9>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_8" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<8>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_7" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<7>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_6" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<6>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_5" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<5>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_4" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<4>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_3" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<3>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_2" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<2>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_1" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<1>" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int_0" (FF)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/qspo_int<0>" is
+sourceless and has been removed.
+The signal "XLXI_39/we" is sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/write_ctrl3" (ROM)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/write_ctrl3" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/write_ctrl2" (ROM)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/write_ctrl2" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/write_ctrl1" (ROM)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/write_ctrl1" is
+sourceless and has been removed.
+ Sourceless block
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/write_ctrl" (ROM)
+removed.
+  The signal
+"XLXI_39/U0/xst_options.dist_mem_inst/gen_sp_ram.spram_inst/write_ctrl" is
+sourceless and has been removed.
+Unused block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<1>_SW0" (ROM) removed.
+Unused block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<2>_F" (ROM) removed.
+Unused block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<2>_G" (ROM) removed.
+Unused block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<3>_F" (ROM) removed.
+Unused block "XLXI_1/Key_x[4]_Key_out[4]_select_75_OUT<3>_G" (ROM) removed.
+Unused block "XLXI_1/_n0225_inv1_cepot1_INV_0" (BUF) removed.
+Unused block "XLXI_1/_n03081" (ROM) removed.
+Unused block "XLXI_20/XLXI_23" (ONE) removed.
+Unused block "XLXI_20/XLXI_24" (ZERO) removed.
+Unused block "XLXI_23/_n0026_inv1" (ROM) removed.
+Unused block "XLXI_3/_n0176_inv11" (ROM) removed.
+Unused block "XLXI_3/_n0187_inv11" (ROM) removed.
+Unused block "XLXI_3/n0001_inv1" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XLXI_1/XST_GND
+VCC 		XLXI_1/XST_VCC
+GND 		XLXI_12
+VCC 		XLXI_17
+BUF 		XLXI_18
+FDCE_1 		XLXI_23/LED_0
+   optimized to 0
+FDPE_1 		XLXI_23/LED_1
+   optimized to 1
+FDCE_1 		XLXI_23/LED_2
+   optimized to 0
+FDPE_1 		XLXI_23/LED_3
+   optimized to 1
+FDCE_1 		XLXI_23/LED_4
+   optimized to 0
+FDPE_1 		XLXI_23/LED_5
+   optimized to 1
+FDCE_1 		XLXI_23/LED_6
+   optimized to 0
+FDCE_1 		XLXI_23/LED_7
+   optimized to 0
+GND 		XLXI_24/M2/XST_GND
+VCC 		XLXI_24/M2/XST_VCC
+VCC 		XLXI_25/P2LED/XST_VCC
+GND 		XLXI_28/XST_GND
+GND 		XLXI_40/XST_GND
+VCC 		XLXI_40/XST_VCC
+LUT6 		XLXI_5/MUX1_DispData/Mmux_o_3
+   optimized to 0
+LUT6 		XLXI_5/MUX1_DispData/Mmux_o_311
+   optimized to 0
+LUT6 		XLXI_5/MUX2_Blink/Mmux_o_3
+   optimized to 0
+LUT6 		XLXI_5/MUX2_Blink/Mmux_o_31
+   optimized to 0
+LUT6 		XLXI_5/MUX2_Blink/Mmux_o_32
+   optimized to 0
+LUT6 		XLXI_5/MUX2_Blink/Mmux_o_33
+   optimized to 0
+LUT6 		XLXI_5/MUX2_Blink/Mmux_o_34
+   optimized to 0
+LUT6 		XLXI_5/MUX2_Blink/Mmux_o_35
+   optimized to 0
+LUT6 		XLXI_5/MUX2_Blink/Mmux_o_36
+   optimized to 0
+LUT6 		XLXI_5/MUX2_Blink/Mmux_o_37
+   optimized to 0

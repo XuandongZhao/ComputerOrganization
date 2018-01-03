@@ -1,0 +1,8 @@
+[Inputs]
+S
+[Outputs]
+=So[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel SignalExt_32
+

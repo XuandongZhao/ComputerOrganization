@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Data_path_Data_path_sch_tb_isim_beh.exe -prj C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Data_path_Data_path_sch_tb_beh.prj work.Data_path_Data_path_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/xor32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/srl32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/slt32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/or_bit_32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/or32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/nor32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MUX8T1_32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/and32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/ADC32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Regs.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/REG32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MUX2T1_5.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MUX2T1_32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Ext_32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/ALU.vf" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/add_32.v" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Data_path.vf" into library work
+Analyzing Verilog file "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Data_path_sim.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:267 - "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/ALU.vf" Line 49: Cannot find port s on this module
+ERROR:HDLCompiler:25 - "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/ALU.vf" Line 52: Module <ADC32> does not have a port named <Co>.
+ERROR:HDLCompiler:25 - "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/ALU.vf" Line 53: Module <ADC32> does not have a port named <s>.
+WARNING:HDLCompiler:1016 - "C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/ALU.vf" Line 49: Port S is not connected to this instance
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

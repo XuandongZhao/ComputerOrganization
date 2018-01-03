@@ -1,0 +1,14 @@
+C:\zxd_CS\CC\OExp04-IP2CPU\Top_OExp03_IP2SOC.ngc 1491891385
+Code/IO/SAnti_jitter.ngc 1451317792
+Code/IO/SEnter_2_32.ngc 1451318047
+Code/IO/MIO_BUS.ngc 1451873907
+Code/IO/SSeg7_Dev.ngc 1451317703
+Code/IO/Multi_8CH32.ngc 1451318652
+Code/IO/SPIO.ngc 1451318280
+Code/IO/PIO.ngc 1451833176
+ipcore_dir/RAM_B.ngc 1451834855
+Code/IO/Seg7_Dev.ngc 1451724315
+ipcore_dir/ROM_D.ngc 1451834699
+Code/Data_path.ngc 1456417740
+Code/SCPU_ctrl.ngc 1456417740
+OK

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/zxd_CS/CC/OExp09-IP2MCPU/Code/Multi_CPU.v -lang verilog -prj OExp09-IP2MCPU -o Multi_CPU.spl -module Multi_CPU -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Multi_CPU.spl C:/zxd_CS/CC/OExp09-IP2MCPU/Multi_CPU.sym 

@@ -1,0 +1,8 @@
+verilog work "regs.v"
+verilog work "REG32.v"
+verilog work "MUX2T1_5.v"
+verilog work "MUX2T1_32.v"
+verilog work "Ext_32.v"
+verilog work "ALU_v.v"
+verilog work "add_32.v"
+verilog work "Data_path.vf"

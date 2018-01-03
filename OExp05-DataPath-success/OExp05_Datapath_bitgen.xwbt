@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Downloads\OExp05-DataPath-success\OExp05_Datapath.ncd
+OUTFILE=Z:\Downloads\OExp05-DataPath-success\OExp05_Datapath.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=Z:\Downloads\OExp05-DataPath-success
+LICENSE=WebPack
+USER_INFO=__0_0_0

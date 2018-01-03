@@ -1,0 +1,10 @@
+Command line:
+   HexTo8SEG_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52719
+
+Sun Mar 19 12:13:02 2017
+
+
+ Elaboration Time: 1.34375 sec

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/COAD/OExp05-DataPath-success/SCPU_trl_test_isim_beh.exe" -prj "G:/COAD/OExp05-DataPath-success/SCPU_trl_test_beh.prj" "work.SCPU_trl_test" "work.glbl" 

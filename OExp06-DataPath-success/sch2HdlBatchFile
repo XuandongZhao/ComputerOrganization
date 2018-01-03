@@ -1,0 +1,5 @@
+sch2hdl,-sympath,G:/COAD/OExp05-DataPath-success/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,G:/COAD/OExp05-DataPath-success/SCPU.vf,-w,G:/COAD/OExp05-DataPath-success/SCPU.sch
+sch2hdl,-sympath,G:/COAD/OExp05-DataPath-success/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,G:/COAD/OExp05-DataPath-success/Data_path.vf,-w,G:/COAD/OExp05-DataPath-success/Data_path.sch
+sch2hdl,-sympath,G:/COAD/OExp05-DataPath-success/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,G:/COAD/OExp05-DataPath-success/OExp05_Datapath.vf,-w,G:/COAD/OExp05-DataPath-success/OExp05_Datapath.sch
+sch2hdl,-sympath,G:/COAD/OExp05-DataPath-success/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,G:/COAD/OExp05-DataPath-success/SCPU.vf,-w,G:/COAD/OExp05-DataPath-success/SCPU.sch
+sch2hdl,-sympath,G:/COAD/OExp05-DataPath-success/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,G:/COAD/OExp05-DataPath-success/OExp05_Datapath.vf,-w,G:/COAD/OExp05-DataPath-success/OExp05_Datapath.sch

@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_More C:/zxd_CS/CC/OExp07-ExtSCPU/Code/SCPU_More.sch C:/zxd_CS/CC/OExp07-ExtSCPU/SCPU_More.sym 
+sch2hdl -sympath C:/zxd_CS/CC/OExp07-ExtSCPU/Code -sympath C:/zxd_CS/CC/OExp07-ExtSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_More_drc.vf -w C:/zxd_CS/CC/OExp07-ExtSCPU/Code/SCPU_More.sch 
+sch2hdl -sympath C:/zxd_CS/CC/OExp07-ExtSCPU/Code -sympath C:/zxd_CS/CC/OExp07-ExtSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_More_drc.vf -w C:/zxd_CS/CC/OExp07-ExtSCPU/Code/SCPU_More.sch 
+sch2hdl -sympath C:/zxd_CS/CC/OExp07-ExtSCPU/Code -sympath C:/zxd_CS/CC/OExp07-ExtSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_More_drc.vf -w C:/zxd_CS/CC/OExp07-ExtSCPU/Code/SCPU_More.sch 

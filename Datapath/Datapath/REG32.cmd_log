@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/Computer Design/ex5/Datapath/REG32.xst" -ofn "D:/Computer Design/ex5/Datapath/REG32.syr" 
+vhdtdtfi -lib work {D:/Computer Design/ex5/Datapath/REG32.v} -lang verilog -prj Datapath -o REG32.spl -module REG32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 REG32.spl {D:/Computer Design/ex5/Datapath/REG32.sym} 

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp03-IP2SOC/Code/IO/Multi_8CH32_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/ADC32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/ALU.vf&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Counter_3_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Data_path_sim.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Display_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Ext_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/GPIO_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MIO_BUS_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MUX2T1_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MUX2T1_5.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MUX4T1_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MUX4T1_5.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/MUX8T1_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Multi_8CH32_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/PIO_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/REG32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Regs.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/SAnti_jitter_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/SCPU_ctrl.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/SEnter_2_32_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/SPIO_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/SSeg7_Dev_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/Seg7_Dev_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/SignalExt_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/add_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/and32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/clk_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/nor32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/or32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/or_bit_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/slt32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/srl32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/zxd_CS/CC/OExp05-newDatapath/OExp05-newDatapath/OExp04-IP2CPU/OExp01-MUX/xor32.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

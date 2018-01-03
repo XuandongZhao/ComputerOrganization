@@ -1,0 +1,2 @@
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,D:/Computer Design/ex5/Datapath/Data_path.vf,-w,D:/Computer Design/ex5/Datapath/Data_path.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,D:/Computer Design/ex5/Datapath/ALU.vf,-w,D:/Computer Design/ex5/Datapath/ALU.sch

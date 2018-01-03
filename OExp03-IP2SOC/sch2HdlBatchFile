@@ -1,0 +1,1 @@
+sch2hdl,-sympath,C:/zxd_CS/CC/OExp03-IP2SOC/Code/IO,-sympath,C:/zxd_CS/CC/OExp03-IP2SOC/Code/CPU,-sympath,C:/zxd_CS/CC/OExp03-IP2SOC/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/zxd_CS/CC/OExp03-IP2SOC/Top_OExp03_IP2SOC.vf,-w,C:/zxd_CS/CC/OExp03-IP2SOC/Code/Top_OExp03_IP2SOC.sch

@@ -1,0 +1,1 @@
+sch2hdl -sympath G:/COAD/OExp05-DataPath-success/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_ctrl_drc.vf -w G:/COAD/OExp05-DataPath-success/code/SCPU_ctrl.sch 

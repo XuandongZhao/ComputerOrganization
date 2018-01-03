@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\zxd_CS\CC\OExp11-OwnMCPU_zxd\impact.xsl
+OUTFILE=C:\zxd_CS\CC\OExp11-OwnMCPU_zxd\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\zxd_CS\CC\OExp11-OwnMCPU_zxd
+LICENSE=iMPACT
+USER_INFO=iMPACT

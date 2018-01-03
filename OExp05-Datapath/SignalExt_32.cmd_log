@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/zxd_CS/CC/OExp04-IP2CPU/Code/ALU/SignalExt_32.v -lang verilog -prj OExp03-IP2SOC -o SignalExt_32.spl -module SignalExt_32 -template D:/Software/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SignalExt_32.spl D:/zxd_CS/CC/OExp04-IP2CPU/SignalExt_32.sym 
